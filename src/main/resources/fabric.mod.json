@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "megalosmetallurgy",
+	"version": "${version}",
+	"name": "Megalo's Metallurgy",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"MegaloGaming_UK"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/megalosmetallurgy/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+          "net.megalogaming.megalosmetallurgy.MegalosMetallurgy"
+		],
+		"client": [
+			"net.megalogaming.megalosmetallurgy.MegalosMetallurgyClient"
+		],
+		"fabric-datagen": [
+			"net.megalogaming.megalosmetallurgy.MeaglosMetallurgyDataGenerator"
+		]
+	},
+	"mixins": [
+		"megalosmetallurgy.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.18",
+		"minecraft": "~1.19.3",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
