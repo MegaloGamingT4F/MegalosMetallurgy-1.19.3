@@ -25,9 +25,19 @@ public class ModBlocks {
     public static final Block DEEPSLATE_ALUMINIUM_ORE = registerBlock("deepslate_aluminium_ore",
             new ExperienceDroppingBlock(FabricBlockSettings.of(Material.STONE).strength(4.0f).requiresTool(), UniformIntProvider.create(3, 7)), ModItemGroup.METALLURGY);
 
+    //Metallurgy - Nether Ore
+    public static final Block NETHERRACK_ALUMINIUM_ORE = registerBlock("netherrack_aluminium_ore",
+            new ExperienceDroppingBlock(FabricBlockSettings.of(Material.STONE).strength(4.0f).requiresTool(), UniformIntProvider.create(3, 7)), ModItemGroup.METALLURGY);
+
+    //Metallurgy - End Ore
+
     //Metallurgy - Block
     public static final Block ALUMINIUM_BLOCK = registerBlock("aluminium_block",
             new Block(FabricBlockSettings.of(Material.METAL).strength(4.0f).requiresTool()), ModItemGroup.METALLURGY);
+
+    //Alloys - Blocks
+    public static final Block AA_BLOCK = registerBlock("aa_block",
+            new Block(FabricBlockSettings.of(Material.METAL).strength(4.0f).requiresTool()), ModItemGroup.ALLOYS);
 
     private static Block registerBlock(String name, Block block, ItemGroup group){
         registerBlockItem(name,block,group);
