@@ -11,7 +11,8 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
 public class ModItems {
-    //Metallurgy
+    //Metallurgy - Raw
+    //Metallurgy - Ingot
     public static final Item ALUMINIUM_INGOT = registerItem("aluminium_ingot", new Item( new FabricItemSettings()));
     public static final Item ANTIMONY_INGOT = registerItem("antimony_ingot", new Item( new FabricItemSettings()));
     public static final Item ARSENIC_INGOT = registerItem("arsenic_ingot", new Item( new FabricItemSettings()));
@@ -63,7 +64,8 @@ public class ModItems {
     public static final Item ZINC_INGOT = registerItem("zinc_ingot", new Item( new FabricItemSettings()));
     public static final Item ZIRCONIUM_INGOT = registerItem("zirconium_ingot", new Item( new FabricItemSettings()));
 
-    //Raw
+    //Metallurgy - Nugget
+    //Metallurgy - Dust
 
 
     //Alloy

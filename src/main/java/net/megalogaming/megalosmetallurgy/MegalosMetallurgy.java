@@ -2,6 +2,7 @@ package net.megalogaming.megalosmetallurgy;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.megalogaming.megalosmetallurgy.block.ModBlocks;
 import net.megalogaming.megalosmetallurgy.item.ModItemGroup;
 import net.megalogaming.megalosmetallurgy.item.ModItems;
 import org.slf4j.Logger;
@@ -15,5 +16,6 @@ public class MegalosMetallurgy implements ModInitializer {
 	public void onInitialize() {
 		ModItemGroup.registerItemGroups();
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }
