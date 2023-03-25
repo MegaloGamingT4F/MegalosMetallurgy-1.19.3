@@ -2,8 +2,9 @@
   "replace": false,
   "values": [
     "megalosmetallurgy:aluminium_ore",
-    "megalosmetallurgy:deepslate_aluminium_ore",
-    "megalosmetallurgy:netherrack_aluminium_ore",
+    "megalosmetallurgy:deepslate_antimony_ore",
+    "megalosmetallurgy:netherrack_arsenic_ore",
+    "megalosmetallurgy:end_lithium_ore",
     "megalosmetallurgy:aluminium_block"
   ]
 }
