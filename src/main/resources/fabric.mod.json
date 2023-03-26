@@ -22,7 +22,7 @@
 			"net.megalogaming.megalosmetallurgy.MegalosMetallurgyClient"
 		],
 		"fabric-datagen": [
-			"net.megalogaming.megalosmetallurgy.MeaglosMetallurgyDataGenerator"
+          "net.megalogaming.megalosmetallurgy.MegalosMetallurgyDataGenerator"
 		]
 	},
 	"mixins": [

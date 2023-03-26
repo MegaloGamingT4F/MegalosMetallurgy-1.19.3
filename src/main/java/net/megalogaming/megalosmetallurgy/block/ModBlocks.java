@@ -208,7 +208,7 @@ public class ModBlocks {
             new Block(FabricBlockSettings.of(Material.METAL).strength(4.0f).requiresTool()), ModItemGroup.METALLURGY);
     public static final Block RAW_TECHNETIUM_BLOCK = registerBlock("raw_technetium_block",
             new Block(FabricBlockSettings.of(Material.METAL).strength(4.0f).requiresTool()), ModItemGroup.METALLURGY);
-    public static final Block RAW_TELLurIUM_BLOCK = registerBlock("raw_tellurium_block",
+    public static final Block RAW_TELLURIUM_BLOCK = registerBlock("raw_tellurium_block",
             new Block(FabricBlockSettings.of(Material.METAL).strength(4.0f).requiresTool()), ModItemGroup.METALLURGY);
     public static final Block RAW_THALLIUM_BLOCK = registerBlock("raw_thallium_block",
             new Block(FabricBlockSettings.of(Material.METAL).strength(4.0f).requiresTool()), ModItemGroup.METALLURGY);

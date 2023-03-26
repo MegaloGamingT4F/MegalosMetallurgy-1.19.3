@@ -5,7 +5,6 @@ import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.megalogaming.megalosmetallurgy.MegalosMetallurgy;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
-import net.minecraft.item.ItemGroups;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
@@ -1525,6 +1524,7 @@ public class ModItems {
         addToItemGroup(ModItemGroup.ALLOYS, NITIAL_INGOT);
         addToItemGroup(ModItemGroup.ALLOYS, SILUMIN_INGOT);
         addToItemGroup(ModItemGroup.ALLOYS, YALLOY_INGOT);
+        addToItemGroup(ModItemGroup.ALLOYS, LOCKALLOY_INGOT);
         addToItemGroup(ModItemGroup.ALLOYS, BISMANOL_INGOT);
         addToItemGroup(ModItemGroup.ALLOYS, CERROSAFE_INGOT);
         addToItemGroup(ModItemGroup.ALLOYS, ROSEMETAL_INGOT);
@@ -1704,6 +1704,7 @@ public class ModItems {
         addToItemGroup(ModItemGroup.ALLOYS, NITIAL_NUGGET);
         addToItemGroup(ModItemGroup.ALLOYS, SILUMIN_NUGGET);
         addToItemGroup(ModItemGroup.ALLOYS, YALLOY_NUGGET);
+        addToItemGroup(ModItemGroup.ALLOYS, LOCKALLOY_NUGGET);
         addToItemGroup(ModItemGroup.ALLOYS, BISMANOL_NUGGET);
         addToItemGroup(ModItemGroup.ALLOYS, CERROSAFE_NUGGET);
         addToItemGroup(ModItemGroup.ALLOYS, ROSEMETAL_NUGGET);
@@ -1883,6 +1884,7 @@ public class ModItems {
         addToItemGroup(ModItemGroup.ALLOYS, NITIAL_DUST);
         addToItemGroup(ModItemGroup.ALLOYS, SILUMIN_DUST);
         addToItemGroup(ModItemGroup.ALLOYS, YALLOY_DUST);
+        addToItemGroup(ModItemGroup.ALLOYS, LOCKALLOY_DUST);
         addToItemGroup(ModItemGroup.ALLOYS, BISMANOL_DUST);
         addToItemGroup(ModItemGroup.ALLOYS, CERROSAFE_DUST);
         addToItemGroup(ModItemGroup.ALLOYS, ROSEMETAL_DUST);
