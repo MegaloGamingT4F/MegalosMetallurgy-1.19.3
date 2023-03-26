@@ -15,7 +15,7 @@ public class ModItemGroup {
 
     public static void registerItemGroups(){
         METALLURGY = FabricItemGroup.builder(new Identifier(MegalosMetallurgy.MOD_ID, "metallurgy")).displayName(Text.literal("Megalo's Metallurgy")).icon(() -> new ItemStack(ModBlocks.ALUMINIUM_ORE)).build();
-        ALLOYS = FabricItemGroup.builder(new Identifier(MegalosMetallurgy.MOD_ID, "alloys")).displayName(Text.literal("Megalo's Alloys")).icon(() -> new ItemStack(ModItems.AA_INGOT)).build();
+        ALLOYS = FabricItemGroup.builder(new Identifier(MegalosMetallurgy.MOD_ID, "alloys")).displayName(Text.literal("Megalo's Alloys")).icon(() -> new ItemStack(ModBlocks.AMALGAM_BLOCK)).build();
         HOPLOLOGY = FabricItemGroup.builder(new Identifier(MegalosMetallurgy.MOD_ID, "hoplology")).displayName(Text.literal("Megalo's Hoplology")).icon(() -> new ItemStack(ModItems.AA_INGOT)).build();
     }
 }
