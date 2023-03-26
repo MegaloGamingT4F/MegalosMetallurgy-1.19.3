@@ -15,7 +15,7 @@ public class MegalosMetallurgy implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItemGroup.registerItemGroups();
-		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+		ModItems.registerModItems();
 	}
 }
