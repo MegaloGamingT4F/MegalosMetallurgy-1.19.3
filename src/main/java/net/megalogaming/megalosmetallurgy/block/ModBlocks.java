@@ -342,9 +342,9 @@ public class ModBlocks {
             new Block(FabricBlockSettings.of(Material.METAL).strength(4.0f).requiresTool()), ModItemGroup.ALLOYS);
     public static final Block DURALUMIN_BLOCK = registerBlock("duralumin_block",
             new Block(FabricBlockSettings.of(Material.METAL).strength(4.0f).requiresTool()), ModItemGroup.ALLOYS);
-    public static final Block HIDUMINIUM_BLOCK = registerBlock("hidminium_block",
+    public static final Block HIDUMINIUM_BLOCK = registerBlock("hiduminium_block",
             new Block(FabricBlockSettings.of(Material.METAL).strength(4.0f).requiresTool()), ModItemGroup.ALLOYS);
-    public static final Block HINDALIUM_BLOCK = registerBlock("hindlium_block",
+    public static final Block HINDALIUM_BLOCK = registerBlock("hindalium_block",
             new Block(FabricBlockSettings.of(Material.METAL).strength(4.0f).requiresTool()), ModItemGroup.ALLOYS);
     public static final Block HYDRONALIUM_BLOCK = registerBlock("hydronalium_block",
             new Block(FabricBlockSettings.of(Material.METAL).strength(4.0f).requiresTool()), ModItemGroup.ALLOYS);
@@ -446,7 +446,7 @@ public class ModBlocks {
             new Block(FabricBlockSettings.of(Material.METAL).strength(4.0f).requiresTool()), ModItemGroup.ALLOYS);
     public static final Block MELCHIOR_BLOCK = registerBlock("melchior_block",
             new Block(FabricBlockSettings.of(Material.METAL).strength(4.0f).requiresTool()), ModItemGroup.ALLOYS);
-    public static final Block MUNTZ_BLOCK = registerBlock("muntz_block",
+    public static final Block MUNTZ_BLOCK = registerBlock("muntzmetal_block",
             new Block(FabricBlockSettings.of(Material.METAL).strength(4.0f).requiresTool()), ModItemGroup.ALLOYS);
     public static final Block NICKSILVER_BLOCK = registerBlock("nicksilver_block",
             new Block(FabricBlockSettings.of(Material.METAL).strength(4.0f).requiresTool()), ModItemGroup.ALLOYS);
@@ -510,7 +510,7 @@ public class ModBlocks {
             new Block(FabricBlockSettings.of(Material.METAL).strength(4.0f).requiresTool()), ModItemGroup.ALLOYS);
     public static final Block KOVAR_BLOCK = registerBlock("kovar_block",
             new Block(FabricBlockSettings.of(Material.METAL).strength(4.0f).requiresTool()), ModItemGroup.ALLOYS);
-    public static final Block SPIEGEL_BLOCK = registerBlock("spegel_block",
+    public static final Block SPIEGEL_BLOCK = registerBlock("spiegel_block",
             new Block(FabricBlockSettings.of(Material.METAL).strength(4.0f).requiresTool()), ModItemGroup.ALLOYS);
     public static final Block STABALLOY_BLOCK = registerBlock("staballoy_block",
             new Block(FabricBlockSettings.of(Material.METAL).strength(4.0f).requiresTool()), ModItemGroup.ALLOYS);
@@ -550,7 +550,7 @@ public class ModBlocks {
             new Block(FabricBlockSettings.of(Material.METAL).strength(4.0f).requiresTool()), ModItemGroup.ALLOYS);
     public static final Block WOOTZ_BLOCK = registerBlock("wootz_block",
             new Block(FabricBlockSettings.of(Material.METAL).strength(4.0f).requiresTool()), ModItemGroup.ALLOYS);
-    public static final Block MOLBDOCHALKOS_BLOCK = registerBlock("molbdochalkos_block",
+    public static final Block MOLYBDOCHALKOS_BLOCK = registerBlock("molybdochalkos_block",
             new Block(FabricBlockSettings.of(Material.METAL).strength(4.0f).requiresTool()), ModItemGroup.ALLOYS);
     public static final Block SOLDER_BLOCK = registerBlock("solder_block",
             new Block(FabricBlockSettings.of(Material.METAL).strength(4.0f).requiresTool()), ModItemGroup.ALLOYS);
@@ -616,7 +616,7 @@ public class ModBlocks {
             new Block(FabricBlockSettings.of(Material.METAL).strength(4.0f).requiresTool()), ModItemGroup.ALLOYS);
     public static final Block SCANHYD_BLOCK = registerBlock("scanhyd_block",
             new Block(FabricBlockSettings.of(Material.METAL).strength(4.0f).requiresTool()), ModItemGroup.ALLOYS);
-    public static final Block ARGSTERSIL_BLOCK = registerBlock("arstersil_block",
+    public static final Block ARGSTERSIL_BLOCK = registerBlock("argstersil_block",
             new Block(FabricBlockSettings.of(Material.METAL).strength(4.0f).requiresTool()), ModItemGroup.ALLOYS);
     public static final Block BRITSIL_BLOCK = registerBlock("britsil_block",
             new Block(FabricBlockSettings.of(Material.METAL).strength(4.0f).requiresTool()), ModItemGroup.ALLOYS);
