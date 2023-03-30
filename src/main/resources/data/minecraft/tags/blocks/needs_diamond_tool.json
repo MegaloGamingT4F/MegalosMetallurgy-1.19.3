@@ -1,6 +1,19 @@
 {
   "replace": false,
   "values": [
-    "megalosmetallurgy:netherrack_arsenic_ore"
+    "megalosmetallurgy:netherrack_arsenic_ore",
+    "megalosmetallurgy:netherrack_barium_ore",
+    "megalosmetallurgy:netherrack_beryllium_ore",
+    "megalosmetallurgy:netherrack_caesium_ore",
+    "megalosmetallurgy:netherrack_germanium_ore",
+    "megalosmetallurgy:netherrack_hafnium_ore",
+    "megalosmetallurgy:netherrack_indium_ore",
+    "megalosmetallurgy:netherrack_niobium_ore",
+    "megalosmetallurgy:netherrack_phosphorus_ore",
+    "megalosmetallurgy:netherrack_rhenium_ore",
+    "megalosmetallurgy:netherrack_rhodium_ore",
+    "megalosmetallurgy:netherrack_selenium_ore",
+    "megalosmetallurgy:netherrack_technetium_ore",
+    "megalosmetallurgy:netherrack_tellurium_ore"
   ]
 }

@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "megalosmetallurgy:items/palladium_dust"
+    "layer0": "megalosmetallurgy:item/palladium_dust"
   }
 }

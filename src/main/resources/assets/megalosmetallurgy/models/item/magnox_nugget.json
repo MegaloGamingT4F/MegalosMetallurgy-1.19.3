@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "megalosmetallurgy:items/magnox_nugget"
+    "layer0": "megalosmetallurgy:item/magnox_nugget"
   }
 }

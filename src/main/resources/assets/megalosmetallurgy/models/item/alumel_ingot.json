@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "megalosmetallurgy:items/alumel_ingot"
+    "layer0": "megalosmetallurgy:item/alumel_ingot"
   }
 }

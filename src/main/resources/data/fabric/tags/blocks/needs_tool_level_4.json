@@ -1,6 +1,12 @@
 {
   "replace": false,
   "values": [
-    "megalosmetallurgy:end_lithium_ore"
+    "megalosmetallurgy:end_lithium_ore",
+    "megalosmetallurgy:end_rubidium_ore",
+    "megalosmetallurgy:end_scandium_ore",
+    "megalosmetallurgy:end_strontium_ore",
+    "megalosmetallurgy:end_tantalum_ore",
+    "megalosmetallurgy:end_vanadium_ore",
+    "megalosmetallurgy:end_yttrium_ore"
   ]
 }

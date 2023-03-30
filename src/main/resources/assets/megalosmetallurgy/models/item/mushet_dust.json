@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "megalosmetallurgy:items/mushet_dust"
+    "layer0": "megalosmetallurgy:item/mushet_dust"
   }
 }

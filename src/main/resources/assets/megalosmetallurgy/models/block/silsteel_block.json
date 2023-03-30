@@ -1,6 +1,6 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "megalosmetallurgy:blocks/silsteel_block"
+    "all": "megalosmetallurgy:block/silsteel_block"
   }
 }

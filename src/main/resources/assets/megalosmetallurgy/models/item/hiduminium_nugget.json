@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "megalosmetallurgy:items/hiduminium_nugget"
+    "layer0": "megalosmetallurgy:item/hiduminium_nugget"
   }
 }

@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "megalosmetallurgy:items/whimetal_dust"
+    "layer0": "megalosmetallurgy:item/whimetal_dust"
   }
 }

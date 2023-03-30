@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "megalosmetallurgy:items/elgiloy_nugget"
+    "layer0": "megalosmetallurgy:item/elgiloy_nugget"
   }
 }

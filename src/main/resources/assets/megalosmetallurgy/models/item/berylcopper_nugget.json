@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "megalosmetallurgy:items/berylcopper_nugget"
+    "layer0": "megalosmetallurgy:item/berylcopper_nugget"
   }
 }

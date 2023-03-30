@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "megalosmetallurgy:items/tombac_nugget"
+    "layer0": "megalosmetallurgy:item/tombac_nugget"
   }
 }

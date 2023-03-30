@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "megalosmetallurgy:items/thallium_dust"
+    "layer0": "megalosmetallurgy:item/thallium_dust"
   }
 }

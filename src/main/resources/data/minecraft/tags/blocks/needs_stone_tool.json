@@ -1,6 +1,20 @@
 {
   "replace": false,
   "values": [
-    "megalosmetallurgy:aluminium_ore"
+    "megalosmetallurgy:aluminium_ore",
+    "megalosmetallurgy:cinnabar_ore",
+    "megalosmetallurgy:calcium_ore",
+    "megalosmetallurgy:lead_ore",
+    "megalosmetallurgy:magnesium_ore",
+    "megalosmetallurgy:nickel_ore",
+    "megalosmetallurgy:osmium_ore",
+    "megalosmetallurgy:platinum_ore",
+    "megalosmetallurgy:silicon_ore",
+    "megalosmetallurgy:silver_ore",
+    "megalosmetallurgy:sodium_ore",
+    "megalosmetallurgy:tin_ore",
+    "megalosmetallurgy:titanium_ore",
+    "megalosmetallurgy:zinc_ore",
+    "megalosmetallurgy:zirconium_ore"
   ]
 }
