@@ -5,6 +5,7 @@ import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
 import net.megalogaming.megalosmetallurgy.data.ModLootTableGenerator;
 import net.megalogaming.megalosmetallurgy.data.ModModelProvider;
 import net.megalogaming.megalosmetallurgy.data.ModRecipeGenerator;
+import net.megalogaming.megalosmetallurgy.data.ModWorldGenerator;
 import net.megalogaming.megalosmetallurgy.world.ModConfiguredFeatures;
 import net.megalogaming.megalosmetallurgy.world.ModPlacedFeatures;
 import net.minecraft.registry.RegistryBuilder;
@@ -18,6 +19,7 @@ public class MegalosMetallurgyDataGenerator implements DataGeneratorEntrypoint {
 		pack.addProvider(ModLootTableGenerator::new);
 		pack.addProvider(ModRecipeGenerator::new);
 		pack.addProvider(ModModelProvider::new);
+		pack.addProvider(ModWorldGenerator::new);
 	}
 
 	@Override

@@ -55,7 +55,7 @@ public class ModPlacedFeatures {
     public static final RegistryKey<PlacedFeature> NETHERRACK_HAFNIUM_ORE_PLACED_KEY = registerKey("netherrack_hafnium_ore_placed");
     public static final RegistryKey<PlacedFeature> NETHERRACK_INDIUM_ORE_PLACED_KEY = registerKey("netherrack_indium_ore_placed");
     public static final RegistryKey<PlacedFeature> NETHERRACK_NIOBIUM_ORE_PLACED_KEY = registerKey("netherrack_niobium_ore_placed");
-    public static final RegistryKey<PlacedFeature> NETHERRACK_PHOSPHORUS_ORE_PLACED_KEY = registerKey("netherrack_phophorus_ore_placed");
+    public static final RegistryKey<PlacedFeature> NETHERRACK_PHOSPHORUS_ORE_PLACED_KEY = registerKey("netherrack_phosphorus_ore_placed");
     public static final RegistryKey<PlacedFeature> NETHERRACK_RHENIUM_ORE_PLACED_KEY = registerKey("netherrack_rhenium_ore_placed");
     public static final RegistryKey<PlacedFeature> NETHERRACK_RHODIUM_ORE_PLACED_KEY = registerKey("netherrack_rhodium_ore_placed");
     public static final RegistryKey<PlacedFeature> NETHERRACK_SELENIUM_ORE_PLACED_KEY = registerKey("netherrack_selenium_ore_placed");
@@ -191,6 +191,6 @@ public class ModPlacedFeatures {
     private static <FC extends FeatureConfig, F extends Feature<FC>> void register(Registerable<PlacedFeature> context, RegistryKey<PlacedFeature> key,
                                                                                    RegistryEntry<ConfiguredFeature<?, ?>> configuration,
                                                                                    PlacementModifier... modifiers){
-        register(context, key, configuration, (PlacementModifier) List.of(modifiers));
+        register(context, key, configuration, List.of(modifiers));
     }
 }
