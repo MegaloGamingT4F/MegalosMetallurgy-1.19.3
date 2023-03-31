@@ -1,10 +1,10 @@
 package net.megalogaming.megalosmetallurgy;
 
 import net.fabricmc.api.ModInitializer;
-
 import net.megalogaming.megalosmetallurgy.block.ModBlocks;
 import net.megalogaming.megalosmetallurgy.item.ModItemGroup;
 import net.megalogaming.megalosmetallurgy.item.ModItems;
+import net.megalogaming.megalosmetallurgy.world.gen.ModWorldGeneration;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -17,5 +17,7 @@ public class MegalosMetallurgy implements ModInitializer {
 		ModItemGroup.registerItemGroups();
 		ModBlocks.registerModBlocks();
 		ModItems.registerModItems();
+		ModWorldGeneration.generateModWorldGen();
+
 	}
 }

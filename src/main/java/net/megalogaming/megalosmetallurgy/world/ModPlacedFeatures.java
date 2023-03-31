@@ -7,12 +7,8 @@ import net.minecraft.registry.RegistryKeys;
 import net.minecraft.registry.entry.RegistryEntry;
 import net.minecraft.util.Identifier;
 import net.minecraft.world.gen.YOffset;
-import net.minecraft.world.gen.feature.ConfiguredFeature;
-import net.minecraft.world.gen.feature.Feature;
-import net.minecraft.world.gen.feature.FeatureConfig;
-import net.minecraft.world.gen.feature.PlacedFeature;
-import net.minecraft.world.gen.placementmodifier.HeightRangePlacementModifier;
-import net.minecraft.world.gen.placementmodifier.PlacementModifier;
+import net.minecraft.world.gen.feature.*;
+import net.minecraft.world.gen.placementmodifier.*;
 
 import java.util.List;
 
@@ -80,108 +76,108 @@ public class ModPlacedFeatures {
 
         //Overworld
         register(context, ALUMINIUM_ORE_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.ALUMINIUM_ORE_KEY),
-                ModOrePlacement.modifierWithCount(16, HeightRangePlacementModifier.uniform(YOffset.fixed(-80), YOffset.fixed(80))));
+                ModOrePlacement.modifiersWithCount(16, HeightRangePlacementModifier.uniform(YOffset.fixed(-80), YOffset.fixed(80))));
         register(context, CALCIUM_ORE_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.CALCIUM_ORE_KEY),
-                ModOrePlacement.modifierWithCount(16, HeightRangePlacementModifier.uniform(YOffset.fixed(-80), YOffset.fixed(80))));
+                ModOrePlacement.modifiersWithCount(16, HeightRangePlacementModifier.uniform(YOffset.fixed(-80), YOffset.fixed(80))));
         register(context, CINNABAR_ORE_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.CINNABAR_ORE_KEY),
-                ModOrePlacement.modifierWithCount(16, HeightRangePlacementModifier.uniform(YOffset.fixed(-80), YOffset.fixed(80))));
+                ModOrePlacement.modifiersWithCount(16, HeightRangePlacementModifier.uniform(YOffset.fixed(-80), YOffset.fixed(80))));
         register(context, LEAD_ORE_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.LEAD_ORE_KEY),
-                ModOrePlacement.modifierWithCount(16, HeightRangePlacementModifier.uniform(YOffset.fixed(-80), YOffset.fixed(80))));
+                ModOrePlacement.modifiersWithCount(16, HeightRangePlacementModifier.uniform(YOffset.fixed(-80), YOffset.fixed(80))));
         register(context, MAGNESIUM_ORE_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.MAGNESIUM_ORE_KEY),
-                ModOrePlacement.modifierWithCount(16, HeightRangePlacementModifier.uniform(YOffset.fixed(-80), YOffset.fixed(80))));
+                ModOrePlacement.modifiersWithCount(16, HeightRangePlacementModifier.uniform(YOffset.fixed(-80), YOffset.fixed(80))));
         register(context, NICKEL_ORE_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.NICKEL_ORE_KEY),
-                ModOrePlacement.modifierWithCount(16, HeightRangePlacementModifier.uniform(YOffset.fixed(-80), YOffset.fixed(80))));
+                ModOrePlacement.modifiersWithCount(16, HeightRangePlacementModifier.uniform(YOffset.fixed(-80), YOffset.fixed(80))));
         register(context, OSMIUM_ORE_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.OSMIUM_ORE_KEY),
-                ModOrePlacement.modifierWithCount(16, HeightRangePlacementModifier.uniform(YOffset.fixed(-80), YOffset.fixed(80))));
+                ModOrePlacement.modifiersWithCount(16, HeightRangePlacementModifier.uniform(YOffset.fixed(-80), YOffset.fixed(80))));
         register(context, PLATINUM_ORE_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.PLATINUM_ORE_KEY),
-                ModOrePlacement.modifierWithCount(16, HeightRangePlacementModifier.uniform(YOffset.fixed(-80), YOffset.fixed(80))));
+                ModOrePlacement.modifiersWithCount(16, HeightRangePlacementModifier.uniform(YOffset.fixed(-80), YOffset.fixed(80))));
         register(context, SILICON_ORE_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.SILICON_ORE_KEY),
-                ModOrePlacement.modifierWithCount(16, HeightRangePlacementModifier.uniform(YOffset.fixed(-80), YOffset.fixed(80))));
+                ModOrePlacement.modifiersWithCount(16, HeightRangePlacementModifier.uniform(YOffset.fixed(-80), YOffset.fixed(80))));
         register(context, SILVER_ORE_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.SILVER_ORE_KEY),
-                ModOrePlacement.modifierWithCount(16, HeightRangePlacementModifier.uniform(YOffset.fixed(-80), YOffset.fixed(80))));
+                ModOrePlacement.modifiersWithCount(16, HeightRangePlacementModifier.uniform(YOffset.fixed(-80), YOffset.fixed(80))));
         register(context, SODIUM_ORE_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.SODIUM_ORE_KEY),
-                ModOrePlacement.modifierWithCount(16, HeightRangePlacementModifier.uniform(YOffset.fixed(-80), YOffset.fixed(80))));
+                ModOrePlacement.modifiersWithCount(16, HeightRangePlacementModifier.uniform(YOffset.fixed(-80), YOffset.fixed(80))));
         register(context, TIN_ORE_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.TIN_ORE_KEY),
-                ModOrePlacement.modifierWithCount(16, HeightRangePlacementModifier.uniform(YOffset.fixed(-80), YOffset.fixed(80))));
+                ModOrePlacement.modifiersWithCount(16, HeightRangePlacementModifier.uniform(YOffset.fixed(-80), YOffset.fixed(80))));
         register(context, TITANIUM_ORE_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.TITANIUM_ORE_KEY),
-                ModOrePlacement.modifierWithCount(16, HeightRangePlacementModifier.uniform(YOffset.fixed(-80), YOffset.fixed(80))));
+                ModOrePlacement.modifiersWithCount(16, HeightRangePlacementModifier.uniform(YOffset.fixed(-80), YOffset.fixed(80))));
         register(context, ZINC_ORE_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.ZINC_ORE_KEY),
-                ModOrePlacement.modifierWithCount(16, HeightRangePlacementModifier.uniform(YOffset.fixed(-80), YOffset.fixed(80))));
+                ModOrePlacement.modifiersWithCount(16, HeightRangePlacementModifier.uniform(YOffset.fixed(-80), YOffset.fixed(80))));
         register(context, ZIRCONIUM_ORE_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.ZIRCONIUM_ORE_KEY),
-                ModOrePlacement.modifierWithCount(16, HeightRangePlacementModifier.uniform(YOffset.fixed(-80), YOffset.fixed(80))));
+                ModOrePlacement.modifiersWithCount(16, HeightRangePlacementModifier.uniform(YOffset.fixed(-80), YOffset.fixed(80))));
         //Deepslate
         register(context, DEEPSLATE_ANTIMONY_ORE_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.DEEPSLATE_ANTIMONY_ORE_KEY),
-                ModOrePlacement.modifierWithCount(16, HeightRangePlacementModifier.uniform(YOffset.fixed(-80), YOffset.fixed(80))));
+                ModOrePlacement.modifiersWithCount(16, HeightRangePlacementModifier.uniform(YOffset.fixed(-80), YOffset.fixed(80))));
         register(context, DEEPSLATE_BISMUTH_ORE_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.DEEPSLATE_BISMUTH_ORE_KEY),
-                ModOrePlacement.modifierWithCount(16, HeightRangePlacementModifier.uniform(YOffset.fixed(-80), YOffset.fixed(80))));
+                ModOrePlacement.modifiersWithCount(16, HeightRangePlacementModifier.uniform(YOffset.fixed(-80), YOffset.fixed(80))));
         register(context, DEEPSLATE_CADMIUM_ORE_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.DEEPSLATE_CADMIUM_ORE_KEY),
-                ModOrePlacement.modifierWithCount(16, HeightRangePlacementModifier.uniform(YOffset.fixed(-80), YOffset.fixed(80))));
+                ModOrePlacement.modifiersWithCount(16, HeightRangePlacementModifier.uniform(YOffset.fixed(-80), YOffset.fixed(80))));
         register(context, DEEPSLATE_CHROMIUM_ORE_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.DEEPSLATE_CHROMIUM_ORE_KEY),
-                ModOrePlacement.modifierWithCount(16, HeightRangePlacementModifier.uniform(YOffset.fixed(-80), YOffset.fixed(80))));
+                ModOrePlacement.modifiersWithCount(16, HeightRangePlacementModifier.uniform(YOffset.fixed(-80), YOffset.fixed(80))));
         register(context, DEEPSLATE_COBALT_ORE_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.DEEPSLATE_COBALT_ORE_KEY),
-                ModOrePlacement.modifierWithCount(16, HeightRangePlacementModifier.uniform(YOffset.fixed(-80), YOffset.fixed(80))));
+                ModOrePlacement.modifiersWithCount(16, HeightRangePlacementModifier.uniform(YOffset.fixed(-80), YOffset.fixed(80))));
         register(context, DEEPSLATE_GALLIUM_ORE_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.DEEPSLATE_GALLIUM_ORE_KEY),
-                ModOrePlacement.modifierWithCount(16, HeightRangePlacementModifier.uniform(YOffset.fixed(-80), YOffset.fixed(80))));
+                ModOrePlacement.modifiersWithCount(16, HeightRangePlacementModifier.uniform(YOffset.fixed(-80), YOffset.fixed(80))));
         register(context, DEEPSLATE_IRIDIUM_ORE_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.DEEPSLATE_IRIDIUM_ORE_KEY),
-                ModOrePlacement.modifierWithCount(16, HeightRangePlacementModifier.uniform(YOffset.fixed(-80), YOffset.fixed(80))));
+                ModOrePlacement.modifiersWithCount(16, HeightRangePlacementModifier.uniform(YOffset.fixed(-80), YOffset.fixed(80))));
         register(context, DEEPSLATE_MANGANESE_ORE_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.DEEPSLATE_MANGANESE_ORE_KEY),
-                ModOrePlacement.modifierWithCount(16, HeightRangePlacementModifier.uniform(YOffset.fixed(-80), YOffset.fixed(80))));
+                ModOrePlacement.modifiersWithCount(16, HeightRangePlacementModifier.uniform(YOffset.fixed(-80), YOffset.fixed(80))));
         register(context, DEEPSLATE_MOLYBDENUM_ORE_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.DEEPSLATE_MOLYBDENUM_ORE_KEY),
-                ModOrePlacement.modifierWithCount(16, HeightRangePlacementModifier.uniform(YOffset.fixed(-80), YOffset.fixed(80))));
+                ModOrePlacement.modifiersWithCount(16, HeightRangePlacementModifier.uniform(YOffset.fixed(-80), YOffset.fixed(80))));
         register(context, DEEPSLATE_PALLADIUM_ORE_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.DEEPSLATE_PALLADIUM_ORE_KEY),
-                ModOrePlacement.modifierWithCount(16, HeightRangePlacementModifier.uniform(YOffset.fixed(-80), YOffset.fixed(80))));
+                ModOrePlacement.modifiersWithCount(16, HeightRangePlacementModifier.uniform(YOffset.fixed(-80), YOffset.fixed(80))));
         register(context, DEEPSLATE_POTASSIUM_ORE_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.DEEPSLATE_POTASSIUM_ORE_KEY),
-                ModOrePlacement.modifierWithCount(16, HeightRangePlacementModifier.uniform(YOffset.fixed(-80), YOffset.fixed(80))));
+                ModOrePlacement.modifiersWithCount(16, HeightRangePlacementModifier.uniform(YOffset.fixed(-80), YOffset.fixed(80))));
         register(context, DEEPSLATE_RUTHENIUM_ORE_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.DEEPSLATE_RUTHENIUM_ORE_KEY),
-                ModOrePlacement.modifierWithCount(16, HeightRangePlacementModifier.uniform(YOffset.fixed(-80), YOffset.fixed(80))));
+                ModOrePlacement.modifiersWithCount(16, HeightRangePlacementModifier.uniform(YOffset.fixed(-80), YOffset.fixed(80))));
         register(context, DEEPSLATE_THALLIUM_ORE_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.DEEPSLATE_THALLIUM_ORE_KEY),
-                ModOrePlacement.modifierWithCount(16, HeightRangePlacementModifier.uniform(YOffset.fixed(-80), YOffset.fixed(80))));
+                ModOrePlacement.modifiersWithCount(16, HeightRangePlacementModifier.uniform(YOffset.fixed(-80), YOffset.fixed(80))));
         register(context, DEEPSLATE_TUNGSTEN_ORE_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.DEEPSLATE_TUNGSTEN_ORE_KEY),
-                ModOrePlacement.modifierWithCount(16, HeightRangePlacementModifier.uniform(YOffset.fixed(-80), YOffset.fixed(80))));
+                ModOrePlacement.modifiersWithCount(16, HeightRangePlacementModifier.uniform(YOffset.fixed(-80), YOffset.fixed(80))));
         //Netherrack
         register(context, NETHERRACK_ARSENIC_ORE_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.NETHERRACK_ARSENIC_ORE_KEY),
-                ModOrePlacement.modifierWithCount(16, HeightRangePlacementModifier.uniform(YOffset.fixed(-80), YOffset.fixed(80))));
+                ModOrePlacement.modifiersWithCount(16, HeightRangePlacementModifier.uniform(YOffset.fixed(-80), YOffset.fixed(80))));
         register(context, NETHERRACK_BARIUM_ORE_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.NETHERRACK_BARIUM_ORE_KEY),
-                ModOrePlacement.modifierWithCount(16, HeightRangePlacementModifier.uniform(YOffset.fixed(-80), YOffset.fixed(80))));
+                ModOrePlacement.modifiersWithCount(16, HeightRangePlacementModifier.uniform(YOffset.fixed(-80), YOffset.fixed(80))));
         register(context, NETHERRACK_BERYLLIUM_ORE_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.NETHERRACK_BERYLLIUM_ORE_KEY),
-                ModOrePlacement.modifierWithCount(16, HeightRangePlacementModifier.uniform(YOffset.fixed(-80), YOffset.fixed(80))));
+                ModOrePlacement.modifiersWithCount(16, HeightRangePlacementModifier.uniform(YOffset.fixed(-80), YOffset.fixed(80))));
         register(context, NETHERRACK_CAESIUM_ORE_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.NETHERRACK_CAESIUM_ORE_KEY),
-                ModOrePlacement.modifierWithCount(16, HeightRangePlacementModifier.uniform(YOffset.fixed(-80), YOffset.fixed(80))));
+                ModOrePlacement.modifiersWithCount(16, HeightRangePlacementModifier.uniform(YOffset.fixed(-80), YOffset.fixed(80))));
         register(context, NETHERRACK_GERMANIUM_ORE_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.NETHERRACK_GERMANIUM_ORE_KEY),
-                ModOrePlacement.modifierWithCount(16, HeightRangePlacementModifier.uniform(YOffset.fixed(-80), YOffset.fixed(80))));
+                ModOrePlacement.modifiersWithCount(16, HeightRangePlacementModifier.uniform(YOffset.fixed(-80), YOffset.fixed(80))));
         register(context, NETHERRACK_HAFNIUM_ORE_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.NETHERRACK_HAFNIUM_ORE_KEY),
-                ModOrePlacement.modifierWithCount(16, HeightRangePlacementModifier.uniform(YOffset.fixed(-80), YOffset.fixed(80))));
+                ModOrePlacement.modifiersWithCount(16, HeightRangePlacementModifier.uniform(YOffset.fixed(-80), YOffset.fixed(80))));
         register(context, NETHERRACK_INDIUM_ORE_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.NETHERRACK_INDIUM_ORE_KEY),
-                ModOrePlacement.modifierWithCount(16, HeightRangePlacementModifier.uniform(YOffset.fixed(-80), YOffset.fixed(80))));
+                ModOrePlacement.modifiersWithCount(16, HeightRangePlacementModifier.uniform(YOffset.fixed(-80), YOffset.fixed(80))));
         register(context, NETHERRACK_NIOBIUM_ORE_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.NETHERRACK_NIOBIUM_ORE_KEY),
-                ModOrePlacement.modifierWithCount(16, HeightRangePlacementModifier.uniform(YOffset.fixed(-80), YOffset.fixed(80))));
+                ModOrePlacement.modifiersWithCount(16, HeightRangePlacementModifier.uniform(YOffset.fixed(-80), YOffset.fixed(80))));
         register(context, NETHERRACK_PHOSPHORUS_ORE_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.NETHERRACK_PHOSPHORUS_ORE_KEY),
-                ModOrePlacement.modifierWithCount(16, HeightRangePlacementModifier.uniform(YOffset.fixed(-80), YOffset.fixed(80))));
+                ModOrePlacement.modifiersWithCount(16, HeightRangePlacementModifier.uniform(YOffset.fixed(-80), YOffset.fixed(80))));
         register(context, NETHERRACK_RHENIUM_ORE_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.NETHERRACK_RHENIUM_ORE_KEY),
-                ModOrePlacement.modifierWithCount(16, HeightRangePlacementModifier.uniform(YOffset.fixed(-80), YOffset.fixed(80))));
+                ModOrePlacement.modifiersWithCount(16, HeightRangePlacementModifier.uniform(YOffset.fixed(-80), YOffset.fixed(80))));
         register(context, NETHERRACK_RHODIUM_ORE_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.NETHERRACK_RHODIUM_ORE_KEY),
-                ModOrePlacement.modifierWithCount(16, HeightRangePlacementModifier.uniform(YOffset.fixed(-80), YOffset.fixed(80))));
+                ModOrePlacement.modifiersWithCount(16, HeightRangePlacementModifier.uniform(YOffset.fixed(-80), YOffset.fixed(80))));
         register(context, NETHERRACK_SELENIUM_ORE_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.NETHERRACK_SELENIUM_ORE_KEY),
-                ModOrePlacement.modifierWithCount(16, HeightRangePlacementModifier.uniform(YOffset.fixed(-80), YOffset.fixed(80))));
+                ModOrePlacement.modifiersWithCount(16, HeightRangePlacementModifier.uniform(YOffset.fixed(-80), YOffset.fixed(80))));
         register(context, NETHERRACK_TECHNETIUM_ORE_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.NETHERRACK_TECHNETIUM_ORE_KEY),
-                ModOrePlacement.modifierWithCount(16, HeightRangePlacementModifier.uniform(YOffset.fixed(-80), YOffset.fixed(80))));
+                ModOrePlacement.modifiersWithCount(16, HeightRangePlacementModifier.uniform(YOffset.fixed(-80), YOffset.fixed(80))));
         register(context, NETHERRACK_TELLURIUM_ORE_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.NETHERRACK_TELLURIUM_ORE_KEY),
-                ModOrePlacement.modifierWithCount(16, HeightRangePlacementModifier.uniform(YOffset.fixed(-80), YOffset.fixed(80))));
+                ModOrePlacement.modifiersWithCount(16, HeightRangePlacementModifier.uniform(YOffset.fixed(-80), YOffset.fixed(80))));
         //Endstone
         register(context, END_LITHIUM_ORE_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.END_LITHIUM_ORE_KEY),
-                ModOrePlacement.modifierWithCount(16, HeightRangePlacementModifier.uniform(YOffset.fixed(-80), YOffset.fixed(80))));
+                ModOrePlacement.modifiersWithCount(16, HeightRangePlacementModifier.uniform(YOffset.fixed(-80), YOffset.fixed(80))));
         register(context, END_RUBIDIUM_ORE_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.END_RUBIDIUM_ORE_KEY),
-                ModOrePlacement.modifierWithCount(16, HeightRangePlacementModifier.uniform(YOffset.fixed(-80), YOffset.fixed(80))));
+                ModOrePlacement.modifiersWithCount(16, HeightRangePlacementModifier.uniform(YOffset.fixed(-80), YOffset.fixed(80))));
         register(context, END_SCANDIUM_ORE_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.END_SCANDIUM_ORE_KEY),
-                ModOrePlacement.modifierWithCount(16, HeightRangePlacementModifier.uniform(YOffset.fixed(-80), YOffset.fixed(80))));
+                ModOrePlacement.modifiersWithCount(16, HeightRangePlacementModifier.uniform(YOffset.fixed(-80), YOffset.fixed(80))));
         register(context, END_STRONTIUM_ORE_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.END_STRONTIUM_ORE_KEY),
-                ModOrePlacement.modifierWithCount(16, HeightRangePlacementModifier.uniform(YOffset.fixed(-80), YOffset.fixed(80))));
+                ModOrePlacement.modifiersWithCount(16, HeightRangePlacementModifier.uniform(YOffset.fixed(-80), YOffset.fixed(80))));
         register(context, END_TANTALUM_ORE_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.END_TANTALUM_ORE_KEY),
-                ModOrePlacement.modifierWithCount(16, HeightRangePlacementModifier.uniform(YOffset.fixed(-80), YOffset.fixed(80))));
+                ModOrePlacement.modifiersWithCount(16, HeightRangePlacementModifier.uniform(YOffset.fixed(-80), YOffset.fixed(80))));
         register(context, END_VANADIUM_ORE_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.END_VANADIUM_ORE_KEY),
-                ModOrePlacement.modifierWithCount(16, HeightRangePlacementModifier.uniform(YOffset.fixed(-80), YOffset.fixed(80))));
+                ModOrePlacement.modifiersWithCount(16, HeightRangePlacementModifier.uniform(YOffset.fixed(-80), YOffset.fixed(80))));
         register(context, END_YTTRIUM_ORE_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.END_YTTRIUM_ORE_KEY),
-                ModOrePlacement.modifierWithCount(16, HeightRangePlacementModifier.uniform(YOffset.fixed(-80), YOffset.fixed(80))));
+                ModOrePlacement.modifiersWithCount(16, HeightRangePlacementModifier.uniform(YOffset.fixed(-80), YOffset.fixed(80))));
 
     }
     public static RegistryKey<PlacedFeature> registerKey(String name){
@@ -192,7 +188,7 @@ public class ModPlacedFeatures {
         context.register(key, new PlacedFeature(configuration, List.copyOf(modifiers)));
     }
 
-    private static <FC extends FeatureConfig, F extends Feature<FC>> void register(Registerable<PlacedFeature> context, RegistryKey<RegistryKey> key,
+    private static <FC extends FeatureConfig, F extends Feature<FC>> void register(Registerable<PlacedFeature> context, RegistryKey<PlacedFeature> key,
                                                                                    RegistryEntry<ConfiguredFeature<?, ?>> configuration,
                                                                                    PlacementModifier... modifiers){
         register(context, key, configuration, (PlacementModifier) List.of(modifiers));

@@ -11,7 +11,10 @@ import net.minecraft.structure.rule.BlockMatchRuleTest;
 import net.minecraft.structure.rule.RuleTest;
 import net.minecraft.structure.rule.TagMatchRuleTest;
 import net.minecraft.util.Identifier;
-import net.minecraft.world.gen.feature.*;
+import net.minecraft.world.gen.feature.ConfiguredFeature;
+import net.minecraft.world.gen.feature.Feature;
+import net.minecraft.world.gen.feature.FeatureConfig;
+import net.minecraft.world.gen.feature.OreFeatureConfig;
 
 import java.util.List;
 
@@ -74,7 +77,7 @@ public class ModConfiguredFeatures {
     public static final RegistryKey<ConfiguredFeature<?, ?>> END_VANADIUM_ORE_KEY = registerKey("end_vanadium_ore");
     public static final RegistryKey<ConfiguredFeature<?, ?>> END_YTTRIUM_ORE_KEY = registerKey("end_yttrium_ore");
 
-    public static void bootStrap(Registerable<ConfiguredFeature<?, ?>> context){
+    public static void bootstrap(Registerable<ConfiguredFeature<?, ?>> context){
         RuleTest stoneReplacables = new TagMatchRuleTest(BlockTags.STONE_ORE_REPLACEABLES);
         RuleTest deepslateReplacables = new TagMatchRuleTest(BlockTags.DEEPSLATE_ORE_REPLACEABLES);
         RuleTest netherReplacables = new TagMatchRuleTest(BlockTags.BASE_STONE_NETHER);
@@ -177,29 +180,29 @@ public class ModConfiguredFeatures {
         register(context, DEEPSLATE_TUNGSTEN_ORE_KEY, Feature.ORE, new OreFeatureConfig(deepslateMetallurgyOres, 9));
 
         //NETHERRACK
-        register(context, NETHERRACK_ARSENIC_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldMetallurgyOres, 9));
-        register(context, NETHERRACK_BARIUM_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldMetallurgyOres, 9));
-        register(context, NETHERRACK_BERYLLIUM_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldMetallurgyOres, 9));
-        register(context, NETHERRACK_CAESIUM_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldMetallurgyOres, 9));
-        register(context, NETHERRACK_GERMANIUM_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldMetallurgyOres, 9));
-        register(context, NETHERRACK_HAFNIUM_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldMetallurgyOres, 9));
-        register(context, NETHERRACK_INDIUM_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldMetallurgyOres, 9));
-        register(context, NETHERRACK_NIOBIUM_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldMetallurgyOres, 9));
-        register(context, NETHERRACK_PHOSPHORUS_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldMetallurgyOres, 9));
-        register(context, NETHERRACK_RHENIUM_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldMetallurgyOres, 9));
-        register(context, NETHERRACK_RHODIUM_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldMetallurgyOres, 9));
-        register(context, NETHERRACK_SELENIUM_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldMetallurgyOres, 9));
-        register(context, NETHERRACK_TECHNETIUM_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldMetallurgyOres, 9));
-        register(context, NETHERRACK_TELLURIUM_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldMetallurgyOres, 9));
+        register(context, NETHERRACK_ARSENIC_ORE_KEY, Feature.ORE, new OreFeatureConfig(netherMetallurgyOres, 9));
+        register(context, NETHERRACK_BARIUM_ORE_KEY, Feature.ORE, new OreFeatureConfig(netherMetallurgyOres, 9));
+        register(context, NETHERRACK_BERYLLIUM_ORE_KEY, Feature.ORE, new OreFeatureConfig(netherMetallurgyOres, 9));
+        register(context, NETHERRACK_CAESIUM_ORE_KEY, Feature.ORE, new OreFeatureConfig(netherMetallurgyOres, 9));
+        register(context, NETHERRACK_GERMANIUM_ORE_KEY, Feature.ORE, new OreFeatureConfig(netherMetallurgyOres, 9));
+        register(context, NETHERRACK_HAFNIUM_ORE_KEY, Feature.ORE, new OreFeatureConfig(netherMetallurgyOres, 9));
+        register(context, NETHERRACK_INDIUM_ORE_KEY, Feature.ORE, new OreFeatureConfig(netherMetallurgyOres, 9));
+        register(context, NETHERRACK_NIOBIUM_ORE_KEY, Feature.ORE, new OreFeatureConfig(netherMetallurgyOres, 9));
+        register(context, NETHERRACK_PHOSPHORUS_ORE_KEY, Feature.ORE, new OreFeatureConfig(netherMetallurgyOres, 9));
+        register(context, NETHERRACK_RHENIUM_ORE_KEY, Feature.ORE, new OreFeatureConfig(netherMetallurgyOres, 9));
+        register(context, NETHERRACK_RHODIUM_ORE_KEY, Feature.ORE, new OreFeatureConfig(netherMetallurgyOres, 9));
+        register(context, NETHERRACK_SELENIUM_ORE_KEY, Feature.ORE, new OreFeatureConfig(netherMetallurgyOres, 9));
+        register(context, NETHERRACK_TECHNETIUM_ORE_KEY, Feature.ORE, new OreFeatureConfig(netherMetallurgyOres, 9));
+        register(context, NETHERRACK_TELLURIUM_ORE_KEY, Feature.ORE, new OreFeatureConfig(netherMetallurgyOres, 9));
 
         //ENDSTONE
-        register(context, END_LITHIUM_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldMetallurgyOres, 9));
-        register(context, END_RUBIDIUM_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldMetallurgyOres, 9));
-        register(context, END_SCANDIUM_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldMetallurgyOres, 9));
-        register(context, END_STRONTIUM_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldMetallurgyOres, 9));
-        register(context, END_TANTALUM_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldMetallurgyOres, 9));
-        register(context, END_VANADIUM_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldMetallurgyOres, 9));
-        register(context, END_YTTRIUM_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldMetallurgyOres, 9));
+        register(context, END_LITHIUM_ORE_KEY, Feature.ORE, new OreFeatureConfig(endMetallurgyOres, 9));
+        register(context, END_RUBIDIUM_ORE_KEY, Feature.ORE, new OreFeatureConfig(endMetallurgyOres, 9));
+        register(context, END_SCANDIUM_ORE_KEY, Feature.ORE, new OreFeatureConfig(endMetallurgyOres, 9));
+        register(context, END_STRONTIUM_ORE_KEY, Feature.ORE, new OreFeatureConfig(endMetallurgyOres, 9));
+        register(context, END_TANTALUM_ORE_KEY, Feature.ORE, new OreFeatureConfig(endMetallurgyOres, 9));
+        register(context, END_VANADIUM_ORE_KEY, Feature.ORE, new OreFeatureConfig(endMetallurgyOres, 9));
+        register(context, END_YTTRIUM_ORE_KEY, Feature.ORE, new OreFeatureConfig(endMetallurgyOres, 9));
 
     }
 
